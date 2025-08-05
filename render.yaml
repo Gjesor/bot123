@@ -7,7 +7,7 @@ services:
     buildCommand: |
       pip install --upgrade pip
       pip install -r requirements.txt
-    startCommand: python main.py
+    startCommand: python bot123.py
     envVars:
       - key: API_TOKEN
         value: "8002505664:AAH8_ui91vjebo5ZbTa0Jw8weLJ64uR7W4o"
@@ -15,3 +15,4 @@ services:
         value: "/usr/bin/ffmpeg"
       - key: COOKIES_PATH
         value: "cookies.txt"
+
