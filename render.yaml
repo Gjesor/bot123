@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: telegram-downloader-bot
+    env: python
+    region: frankfurt
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: API_TOKEN
+        value: "8002505664:AAH8_ui91vjebo5ZbTa0Jw8weLJ64uR7W4o"
+      - key: FFMPEG_PATH
+        value: "/usr/bin/ffmpeg"
