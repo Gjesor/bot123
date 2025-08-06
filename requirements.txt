@@ -1,3 +1,11 @@
-aiogram==3.2.0
-yt-dlp
-python-dotenv
+aiogram==3.0.0b7       
+aiohttp==3.8.5          
+SQLAlchemy==2.0.21       
+asyncpg==0.28.0         
+python-dotenv==1.0.0    
+httpx==0.25.0            
+babel==2.13.1           
+pytube==15.0.0          
+google-api-python-client==2.105.0 
+rich==13.6.0            
+uvloop==0.17.0          
