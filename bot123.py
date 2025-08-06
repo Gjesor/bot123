@@ -15,7 +15,7 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 BASE_WEBHOOK_URL = os.getenv("BASE_WEBHOOK_URL")
 PORT = int(os.getenv("PORT", 8080))
-FFMPEG_PATH = os.getenv("FFMPEG_PATH", "/usr/bin/ffmpeg")
+FFMPEG_PATH = os.getenv("FFMPEG_PATH", "D:/ffmpeg/bin/ffmpeg.exe")
 COOKIES_PATH = os.getenv("COOKIES_PATH", "cookies.txt")
 MAX_FILE_SIZE = 50 * 1024 * 1024
 DAILY_LIMIT = 5
@@ -192,3 +192,4 @@ app.on_startup.append(on_startup)
 
 if __name__ == "__main__":
     web.run_app(app, port=PORT)
+
